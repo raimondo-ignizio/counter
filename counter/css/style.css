@@ -19,11 +19,11 @@ header {
 }
 
 header h1 {
-  font-size: 90px;
+  font-size: 40px;
 }
 
 header p {
-  font-size: 40px;
+  font-size: 20px;
 }
 
 #counter-container {
@@ -33,15 +33,15 @@ header p {
   flex-wrap: nowrap;
   background: linear-gradient(125deg, rgba(190,74,5,1) 0%,
               rgba(85,61,103,1) 48%, rgba(246,76,114,1) 100%);
-  width: 75%;
+  width: 95%;
   margin: 50% auto;
   text-align: center;
   border-radius: 20px;
-  height: 40%;
+  height: 30%;
 }
 
 #counter-container p {
-  font-size: 120px;
+  font-size: 100px;
 }
 
 .buttons-container button {
