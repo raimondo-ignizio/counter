@@ -1,0 +1,19 @@
+{
+  "name": "counter",
+  "version": "1.0.0",
+  "description": "This is just a simple webpage with a counter made for the JavaScript basics project on Start2Impact.\r All the counter's elements (except the div container) have been implemented through the script counter.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raimondo-ignizio/counter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raimondo-ignizio/counter/issues"
+  },
+  "homepage": "https://github.com/raimondo-ignizio/counter#readme"
+}
