@@ -1,3 +1,5 @@
+import "/counter/css/style.css";
+
 let counterContainer = document.getElementById("counter-container");
 
 let counter = document.createElement("p");
