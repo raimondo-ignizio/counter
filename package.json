@@ -2,9 +2,10 @@
   "name": "counter",
   "version": "1.0.0",
   "description": "This is just a simple webpage with a counter made for the JavaScript basics project on Start2Impact.\r All the counter's elements (except the div container) have been implemented through the script counter.js.",
-  "main": "index.js",
+  "main": "counter.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/raimondo-ignizio/counter/issues"
   },
-  "homepage": "https://github.com/raimondo-ignizio/counter#readme"
+  "homepage": "https://github.com/raimondo-ignizio/counter#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.6.0"
+  }
 }
